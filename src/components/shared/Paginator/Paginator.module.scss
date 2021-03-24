@@ -1,0 +1,33 @@
+@import "../../../assets/styles/variables.scss";
+
+.paginatorWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+
+    .page {
+        color: $primary-blue;
+        font-weight: 500;
+    }
+    
+    .buttonsWrapper {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0 1em;
+            
+        .button {
+            font-size: 1em;
+            color: #fff;
+            background: transparent;
+            background-color:  $primary-blue;
+            border: none;
+            padding: 0.5em;
+            border-radius: 0.2em;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+
+}
+

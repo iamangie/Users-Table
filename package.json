@@ -1,0 +1,53 @@
+{
+  "name": "prym-challenge-user-table",
+  "version": "0.1.0",
+  "author": "Stanislav Panchenko <stanislav.panchenko@prym.de>",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.2.0",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "@types/react-redux": "^7.1.9",
+    "@types/reselect": "^2.2.0",
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2",
+    "prettier": "^2.0.5",
+    "react-scripts": "4.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prettier:watch": "onchange '**/*.js' -- npx prettier --write {{changed}}",
+    "prettier:fix": "prettier --write '**/*.js'",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "resetMocks": true
+  }
+}

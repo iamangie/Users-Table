@@ -1,0 +1,23 @@
+@import "./assets/styles/variables.scss";
+
+body {
+  color: $primary;
+}
+
+.appWrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rock {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 3rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+}

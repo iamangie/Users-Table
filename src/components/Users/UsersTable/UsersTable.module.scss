@@ -1,0 +1,17 @@
+@import "../../../assets/styles/variables.scss";
+
+.usersTable {
+    border: 2px solid $primary-blue;
+    border-radius: 1em;
+    padding: 1em;
+
+    th {
+        padding: 1em;
+        color: $primary-blue;
+    }
+
+    td {
+        padding: 0.4em;
+    }
+
+}

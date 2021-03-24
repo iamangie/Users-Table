@@ -2,7 +2,7 @@
 Users Table is a simple extendable SPA created using ReactJS. It represents a table of user data fetched from randomusers.me API.
 
 ## Demonstration
-![](my-app/src/preview.gif)
+![](preview.gif)
 
 Technologies used:
 * React

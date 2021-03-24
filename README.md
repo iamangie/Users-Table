@@ -1,3 +1,26 @@
+# Users Table
+Users Table is a simple extendable SPA created using ReactJS. It represents a table of user data fetched from randomusers.me API.
+
+## Demonstration
+![](my-app/src/preview.mov)
+
+Technologies used:
+* React
+* SCSS
+* Redux/redux-thunk
+
+## Features
+Users Table supports such features:
+* Fetching data fron randomusers.me API using 
+* Pagination
+* Preloader indication while data is loading
+* Go to previous/next table pages to fetch paginated users data
+* Saving data to Local Storage
+* Showing the last data loaded after page reloades
+* Indicating current page in the browser route
+
+## How To Use
+
 # Prym Application Template (User Table)
 
 ## Available Scripts

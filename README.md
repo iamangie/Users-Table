@@ -21,10 +21,6 @@ Users Table supports such features:
 * Data is managed by LocalStorage
 * Changing the page updates the URL with the current page number
 
-## How To Use
-
-# Prym Application Template (User Table)
-
 ## Available Scripts
 
 In the project directory, you can run:
